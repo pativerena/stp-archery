@@ -1,0 +1,17 @@
+* {margin: 0; padding: 0;}
+div {box-sizing: border-box;}
+div.row {width: 90%; margin:auto;}
+div.row:after {content: ""; display: table; clear: both;}
+/* clearfix hack to keep parent from collapsing when all children float*/
+
+
+div[class^='section group'] {float: left;
+                    background-color: olivedrab;
+                    padding-right: 1rem;}
+
+div[class^='section group']:last-child {padding-right: 0;}
+    
+div.col-1-of-3 {width: 33.33%;}
+div.col-1-of-2 {width: 50%;}
+div.col-1-of-4 {width: 25%;}
+div.col-3-of-4 {width: 75%;}
